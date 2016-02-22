@@ -49,7 +49,16 @@ import java.util.regex.Pattern;
  */
 
 public enum Browser {
-
+	/* add */
+	QQ(Manufacturer.OTHER,null,1000,"QQ",new String[]{"TencentTraveler","Tencent","QQBrowser","QQ"},null,BrowserType.WEB_BROWSER,RenderingEngine.TRIDENT,null),
+	Maxthon(Manufacturer.OTHER,null,1001,"Maxthon",new String[]{"Maxthon"},null,BrowserType.WEB_BROWSER,RenderingEngine.OTHER,null),
+	TheWorld(Manufacturer.OTHER,null,1002,"TheWorld",new String[]{"TheWorld","The World"},null,BrowserType.WEB_BROWSER,RenderingEngine.OTHER,null),
+	QiHu(Manufacturer.OTHER,null,1003,"360",new String[]{"360se","360ee","QIHU"},null,BrowserType.WEB_BROWSER,RenderingEngine.OTHER,null),
+	Sogou(Manufacturer.OTHER,null,1004,"sogou",new String[]{"MetaSr"," SE "},null,BrowserType.WEB_BROWSER,RenderingEngine.OTHER,null),
+	Baidu(Manufacturer.OTHER,null,1005,"Baidu",new String[]{"BIDUBrowser","Baidu"},null,BrowserType.WEB_BROWSER,RenderingEngine.OTHER,null),
+	Liebao(Manufacturer.OTHER,null,1006,"Liebao",new String[]{"LBBROWSER","Lie Bao"},null,BrowserType.WEB_BROWSER,RenderingEngine.OTHER,null),
+	Taobao(Manufacturer.OTHER,null,1007,"Taobao",new String[]{"TaoBrowser","Taobao"},null,BrowserType.WEB_BROWSER,RenderingEngine.OTHER,null),
+	/* end of add */
 	/**
 	 * Outlook email client
 	 */
