@@ -58,6 +58,8 @@ public enum Browser {
 	Baidu(Manufacturer.OTHER,null,1005,"Baidu",new String[]{"BIDUBrowser","Baidu"},null,BrowserType.WEB_BROWSER,RenderingEngine.OTHER,null),
 	Liebao(Manufacturer.OTHER,null,1006,"Liebao",new String[]{"LBBROWSER","Lie Bao"},null,BrowserType.WEB_BROWSER,RenderingEngine.OTHER,null),
 	Taobao(Manufacturer.OTHER,null,1007,"Taobao",new String[]{"TaoBrowser","Taobao"},null,BrowserType.WEB_BROWSER,RenderingEngine.OTHER,null),
+	Wangpai(Manufacturer.OTHER,null,1008,"2345",new String[]{"2345Browser","2345"},null,BrowserType.WEB_BROWSER,RenderingEngine.OTHER,null),
+	UC(Manufacturer.OTHER,null,1009,"UC",new String[]{"UCBrowser","UC"},null,BrowserType.WEB_BROWSER,RenderingEngine.OTHER,null),
 	/* end of add */
 	/**
 	 * Outlook email client
