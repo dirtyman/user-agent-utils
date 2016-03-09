@@ -133,7 +133,7 @@ public class UserAgent implements Serializable
 	}
 
 	/**
-	 * Returns an unique integer value of the operating system & browser combination
+	 * Returns an unique integer value of the operating system &amp; browser combination
 	 * @return the id
 	 */
 	public int getId() {
