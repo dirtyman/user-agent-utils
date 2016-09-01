@@ -19,6 +19,7 @@ public class BenchmarkTest {
 		File inputFile = new File("/home/zxchaos/tempFiles/0830_ua");
 		if (!inputFile.exists()) {
 			System.out.println("File not exists!");
+			return;
 		}
 		int init = 1000;
 		ArrayList<String> uaList = new ArrayList<>();
